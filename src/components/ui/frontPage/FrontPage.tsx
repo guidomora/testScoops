@@ -1,10 +1,8 @@
 import CustomerScoopsLogo from '../../../assets/svgs/CustomerScoopsLogo'
 import '../../../styles/ui/frontPage.css'
-import Guy1X from '../../../assets/imgs/laughing-happy-guy-0.png'
-import Guy2X from '../../../assets/imgs/laughing-happy-guy-1.png'
-import Guy3X from '../../../assets/imgs/laughing-happy-guy- 2.png'
-import ScoopsEyes from '../../../assets/svgs/ScoopsEyes'
-import Rectangle from '../../../assets/imgs/Rectangle.png'
+import Group from '../../../assets/imgs/Group175.png'
+import Group1x from '../../../assets/imgs/Group1751X.png'
+import Group2x from '../../../assets/imgs/Group1752X.png'
 import { StatusBar } from '../StatusBar/StatusBar'
 import { PageContext } from '../../../context/PageContext'
 import { useContext } from 'react'
@@ -15,16 +13,13 @@ const FrontPage = ({ barPercent = '54px' }: { barPercent?: string }) => {
     return (
         <div className='container'>
             <StatusBar width={barPercent} />
-            <div style={{ paddingLeft: '1rem' }}>
-                <img className='colorSvg' src={Rectangle} alt="a man smiling to his phone" />
-            </div>
             <img
-                className='imgGuy'
-                src={Guy1X}
-                srcSet={`${Guy1X} 1x, ${Guy2X} 2x, ${Guy3X} 3x`}
+                className='imgGroup'
+                src={Group1x}
+                srcSet={`${Group} 1x, ${Group1x} 2x, ${Group2x} 3x`}
                 alt="Descripción de la imagen"
             />
-            <ScoopsEyes className='eyes' />
+
             <CustomerScoopsLogo className='logoContainer' />
             <div className='numberPage'>
                 <span>{pageNumber}</span>
@@ -34,6 +29,19 @@ const FrontPage = ({ barPercent = '54px' }: { barPercent?: string }) => {
         </div>
     )
 }
+
+// TODO:
+{/* 
+            <div style={{ paddingLeft: '1rem' }}>
+                <img className='colorSvg' src={Rectangle} alt="a man smiling to his phone" />
+            </div>
+            <img
+                className='imgGuy'
+                src={Guy1X}
+                srcSet={`${Guy1X} 1x, ${Guy2X} 2x, ${Guy3X} 3x`}
+                alt="Descripción de la imagen"
+            />
+            <ScoopsEyes className='eyes' />*/}
 
 export default FrontPage
 
