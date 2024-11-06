@@ -1,0 +1,73 @@
+.logoContainer {
+    position: absolute;
+    bottom: 40%;
+    right: 55%;
+}
+
+.eyes{
+    position:absolute;
+    z-index:110;
+    left:188px;
+    top:40px;
+    width:161px;
+    height:75.42px;
+}
+
+.imgGuy{
+    width:127px;
+    height:183px;
+    top:30px;
+    position:relative;
+    z-index:110;
+    left:209px;
+}
+
+.statusBar{
+    background-color:#231331;
+    height:4px;
+    width:54px;
+    position:absolute;
+    top:0;
+    z-index:100;
+}
+
+.container {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display:flex;
+    flex-direction:row;
+    justify-content:end;
+}
+
+.numberPage {
+    position: absolute;
+    display:flex;
+    align-items:top;
+    top:15px;
+    right:28.79px;
+}
+
+.numberPage span{
+    font-weight: bold;
+    color:#231331
+}
+
+.numberPage span:first-child{
+    font-size: 23px;
+    margin-top: -2px;
+}
+
+.numberPage span:nth-child(2){
+    height:26.24px;
+    background-color:#231331;
+    width:2px;
+    opacity:0.7;
+    margin: 0 5px;
+}
+
+.numberPage span:last-child{
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 2px;
+}

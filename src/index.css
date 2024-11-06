@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif; /* Puedes definir la fuente global aquí */
+  background-color: #e9ecef;
+}
+
+/* Quita el estilo de las listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Quita el estilo de los links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
