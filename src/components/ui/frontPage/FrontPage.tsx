@@ -1,8 +1,8 @@
 import CustomerScoopsLogo from '../../../assets/svgs/CustomerScoopsLogo'
 import '../../../styles/ui/frontPage.css'
-import Group from '../../../assets/imgs/Group175.png'
-import Group1x from '../../../assets/imgs/Group1751X.png'
+import Group1x from '../../../assets/imgs/Group1751x.png'
 import Group2x from '../../../assets/imgs/Group1752X.png'
+import Group3x from '../../../assets/imgs/Group1753X.png'
 import { StatusBar } from '../StatusBar/StatusBar'
 import { PageContext } from '../../../context/PageContext'
 import { useContext } from 'react'
@@ -16,7 +16,7 @@ const FrontPage = ({ barPercent = '54px' }: { barPercent?: string }) => {
             <img
                 className='imgGroup'
                 src={Group1x}
-                srcSet={`${Group} 1x, ${Group1x} 2x, ${Group2x} 3x`}
+                srcSet={`${Group1x} 1x, ${Group2x} 2x, ${Group3x} 3x`}
                 alt="Descripción de la imagen"
             />
 

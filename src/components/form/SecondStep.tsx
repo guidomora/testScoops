@@ -10,18 +10,19 @@ const SecondStep = () => {
         <div>
             <FrontPage barPercent={'20vw'} />
             <div className='textContainer'>
+                {/* TODO: */}
                 <p><strong>Genial Juan,</strong> ahora nos gustaría tener
                     cierta info para diseñar una gran propuesta de valor para ti:</p>
                 <p>¿Cuál es tu cargo/posición dentro de tu empresa?</p>
                 <div>
                 </div>
-                <div className="simpleSelectionContainer">
-                    {secondStepoptions.map(option => (
-                        <SelectionButton key={option}>{option}</SelectionButton>
-                    ))}
+                    <div className="simpleSelectionContainer">
+                        {secondStepoptions.map(option => (
+                            <SelectionButton key={option}>{option}</SelectionButton>
+                        ))}
                 </div>
                 <div className="buttonsContainer">
-                    <NavigationBackButton pageUrl="/"/>
+                    <NavigationBackButton pageUrl="/" />
                     <NavigationButton text='Siguiente' pageUrl='/third-page' />
                 </div>
             </div>
