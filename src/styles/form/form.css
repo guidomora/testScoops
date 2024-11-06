@@ -5,7 +5,7 @@ p {
 }
 
 .textContainer {
-    height: 100vh;
+    font-family: "K2D", sans-serif;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -42,11 +42,14 @@ p {
 }
 
 .buttonsContainer {
+    position: absolute;
+    top:695px;
     width: 100%;
     padding: 0px 50px;
 }
 
 .simpleSelectionContainer {
+    width: 100%;
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -65,6 +68,37 @@ p {
     font-weight: 700;
 }
 
+.longSelectionContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
 .flexOne{
     flex: 1;
+}
+
+.textFifth{
+    display: flex;
+    flex-direction:column;
+}
+
+.lastTextContainer {
+    color: #231331;
+    font-family: "K2D", sans-serif;
+    width: 100vw;
+    display: flex;
+    padding-left:3rem;
+    align-items: flex-start;
+    margin-top: 6rem;
+}
+
+.lastTextContainer h2 {
+    font-size: 22px;
+    font-weight: 300
+}
+
+.lastTextContainer p {
+    margin-top: 2rem;
+    font-style: italic;
 }

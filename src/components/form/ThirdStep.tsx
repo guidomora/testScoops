@@ -11,8 +11,7 @@ const ThirdStep = () => {
             <FrontPage barPercent={'37vw'} />
             <div className="textContainer">
                 <p>¿Cuáles son tus principales desafíos para 2024?</p>
-                {/* TODO: */}
-                <div style={{display:"flex", flexDirection:"column"}}>
+                <div className="longSelectionContainer">
                     {thirdStepOptions.map(option => (
                         <LongSelectionButton key={option.option}>
                             <span className="option">{option.option}</span>
@@ -23,7 +22,7 @@ const ThirdStep = () => {
                     ))}
                 </div>
                 <div className="buttonsContainer">
-                    <NavigationBackButton pageUrl="/" />
+                    <NavigationBackButton pageUrl="/second-page" />
                     <NavigationButton text='Siguiente' pageUrl='/fourth-page' />
                 </div>
             </div>

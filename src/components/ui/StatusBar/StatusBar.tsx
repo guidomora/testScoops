@@ -11,4 +11,5 @@ export const StatusBar = styled.div<StatusBarProps>`
     position:absolute;
     top:0;
     z-index:100;
+    transition: 0.4s ease;
 `
