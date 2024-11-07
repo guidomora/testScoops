@@ -1,22 +1,28 @@
-# Entrevista tecnica para desarrollador Front end en Customer Scoops
+# Entrevista Técnica para Desarrollador Front-End en Customer Scoops
 
-Maquetacion de formulario segun un diseño de Figma.
+Este proyecto consiste en la maquetación de un formulario de acuerdo con un diseño proporcionado en Figma.
 
-Tecnologias usadas:
-  Lenguaje: TypeScript
-  Framework: React
-  Herramienta de desarrollo: Vite (para configurar y lanzar el proyecto)
-  Estilo: Styled components y Css
+## Tecnologías Utilizadas
 
-Instrucciones de ejecucion:
-Una vez clonado el repositorio:
-ejecutar ```npm i ```
-Para correr la version de desarrollo ejecutar ```npm run dev ```
-Para ejecutar la version de produccion ejecutar ``` npm run build ``` y luego ``` npm run start```
+- **Lenguaje:** TypeScript
+- **Framework:** React
+- **Herramienta de Desarrollo:** Vite (para configuración y ejecución del proyecto)
+- **Estilos:** Styled Components y CSS
 
-Link a la aplicacion desplegada: 
+## Instrucciones de Ejecución
 
-Descripcion:
-Aplicacion creada a partir de la version mobile, para los estilos
-se uso un hibrido entre css y styled components. La aplicacion esta creada
-a partir de pequeños componentes 
+Para ejecutar el proyecto en tu entorno local:
+
+1. Clona el repositorio.
+2. Instala las dependencias:
+   ```npm install```
+3. Ejecutar el entorno de desarrollo
+```npm run dev```
+
+
+# Version desplegada en Vercel: 
+https://test-scoops-51nj62o4i-guidomoras-projects.vercel.app
+
+# Descripción del Proyecto
+Esta aplicación fue creada con un enfoque en la versión móvil del diseño. Los estilos fueron implementados utilizando una combinación de CSS y Styled Components, permitiendo una personalización eficiente y mantenible. La estructura de la aplicación se basa en la composición de pequeños componentes, lo que facilita la reutilización y escalabilidad del código.
+
