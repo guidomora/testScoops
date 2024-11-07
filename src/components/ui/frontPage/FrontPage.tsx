@@ -1,11 +1,11 @@
 import CustomerScoopsLogo from '../../../assets/svgs/CustomerScoopsLogo'
 import '../../../styles/ui/frontPage.css'
-import Group1x from '../../../assets/imgs/Group1751x.png'
-import Group2x from '../../../assets/imgs/Group1752X.png'
-import Group3x from '../../../assets/imgs/Group1753X.png'
-import GroupDesk1x from '../../../assets/imgs/Group1741x.png'
-import GroupDesk2x from '../../../assets/imgs/Group1742x.png'
-import GroupDesk3x from '../../../assets/imgs/Group1743x.png'
+import Group1x from '../../../../assets/imgs/Group1741x.png'
+import Group2x from '../../../../assets/imgs/Group1752X.png'
+import Group3x from '../../../../assets/imgs/Group1753X.png'
+import GroupDesk1x from '../../../../assets/imgs/Group1741x.png'
+import GroupDesk2x from '../../../../assets/imgs/Group1742x.png'
+import GroupDesk3x from '../../../../assets/imgs/Group1743x.png'
 import { StatusBar } from '../StatusBar/StatusBar'
 import { AppContext } from '../../../context/AppContext'
 import { useContext } from 'react'
@@ -39,6 +39,8 @@ const FrontPage = ({ barPercent = '54px' }: { barPercent?: string }) => {
         </div>
     )
 }
+
+
 
 
 export default FrontPage
