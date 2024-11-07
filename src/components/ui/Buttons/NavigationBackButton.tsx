@@ -4,16 +4,17 @@ import { useNavigate } from 'react-router-dom';
 import { NavigationButtonProps } from './NavigationButton';
 import { CustomBackButton } from './SimpleButtons/CustomBackButton';
 import BackArrow from '../../../assets/svgs/BackArrow';
-import { PageContext } from '../../../context/PageContext';
+import { AppContext } from '../../../context/AppContext';
 import { useContext } from 'react';
 
 
-const NavigationBackButton = ({pageUrl}:NavigationButtonProps) => {
-  const {decrementPage} = useContext(PageContext)
+const NavigationBackButton = ({pageUrl, pageNumber}:NavigationButtonProps) => {
+  const {setPage} = useContext(AppContext)
     const navigate = useNavigate();
 
     const handleButtonClick = () => {
-      decrementPage();
+      // decrementPage();
+      setPage(pageNumber!);
       navigate(pageUrl); 
     };
   

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const LongSelectionButton = styled.button`
+export const LongSelectionButton = styled.button<{isSelected: boolean; }>`
     border: 1px solid #231331;
     width: 305px;
     height: 39px;
@@ -13,10 +13,22 @@ export const LongSelectionButton = styled.button`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: ${(props) => (props.isSelected ? '#231331' : 'transparent')};
+    color: ${(props) => (props.isSelected ? 'white' : '#231331')};
 
 
     &:hover {
         background-color: #231331;
         color: white;
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+        width: 180px;
+        height: 44px;
+    }
+
+    @media (min-width: 1280px) {
+        width: 180px;
+        height: 44px;
     }
 `

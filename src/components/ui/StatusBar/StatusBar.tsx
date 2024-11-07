@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 interface StatusBarProps {
-    width?: string;
-  }
+  width?: string;
+}
 
 export const StatusBar = styled.div<StatusBarProps>`
     background-color:#231331;
@@ -12,4 +12,8 @@ export const StatusBar = styled.div<StatusBarProps>`
     top:0;
     z-index:100;
     transition: 0.4s ease;
+
+    @media (min-width: 1280px) {
+      left: 0;
+    }
 `

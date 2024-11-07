@@ -60,7 +60,7 @@
   margin-top: 2px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1279px) {
   .container {
     height: 380px;
   }
@@ -73,6 +73,77 @@
     height:100px;
     width: 140px;
     top: 140px;
+  }
+
+  .numberPage {
+    top: 35px;
+    right: 4%;
+  }
+
+  .numberPage span:first-child {
+    font-size: 26px;
+  }
+  
+  .numberPage span:nth-child(2) {
+    height: 30.24px;
+  }
+  
+  .numberPage span:last-child {
+    font-size: 14px;
+  }
+
+}
+
+#imgDesktop {
+  display: none;
+}
+
+@media (min-width: 1280px) {
+
+  #imgMobTablet {
+    display: none;
+  }
+
+  #imgDesktop {
+    display: unset;
+  }
+
+  .container {
+    height: 100vh;
+    width: 150vw;
+  }
+  
+  .imgGroup{
+    height: 100%;
+  }
+
+  .logoContainer {
+    position: absolute;
+    height: 100px;
+    width: 160px;
+    top: 260px;
+    left: 6%;
+  }
+
+  .numberPage {
+    top: 85px;
+    right: 6%;
+  }
+
+  .numberPage span:first-child {
+    font-size: 28px;
+  }
+  
+  .numberPage span:nth-child(2) {
+    height: 36.24px;
+  }
+  
+  .numberPage span:last-child {
+    font-size: 16px;
+  }
+
+  #last {
+    background-color: #00CCBC;
   }
 
 }

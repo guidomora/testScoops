@@ -40,6 +40,13 @@ p {
   outline: none;
 }
 
+.preContainer {
+  display: flex;
+  justifycontent: center;
+  width: 100%;
+  padding: 0%, 5%;
+}
+
 .buttonsContainer {
   position: absolute;
   top: 695px;
@@ -102,7 +109,30 @@ p {
   font-style: italic;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+#tabletDesk {
+  display: none;
+}
+
+.preContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-left: 0%;
+}
+
+.finalButton {
+  background-color: #231331;
+  color: white;
+  border-radius: 20px;
+  width: 140px;
+  height: 35px;
+  margin-top: 25px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+
+@media (min-width: 768px) and (max-width: 1279px) {
   p {
     font-size: 20px;
   }
@@ -121,8 +151,137 @@ p {
     width: 450px;
   }
 
+  .preContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 10%;
+  }
+
   .simpleSelectionContainer {
     width: 80%;
     justify-content: flex-start;
+  }
+
+  .buttonsContainer {
+    padding: 0px 15%;
+  }
+
+  .longSelectionContainer {
+    width: 80%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .option {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .optionValue {
+    width: 80%;
+    text-align: center;
+  }
+
+  #mobile {
+    display: none;
+  }
+
+  #tabletDesk {
+    display: unset;
+  }
+
+  .lastTextContainer {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1280px) {
+  .deskContainer {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+
+  .textContainer p {
+    width: 405px;
+    font-size: 20px;
+  }
+
+  .inputContainer {
+    padding: 0px;
+    width: 405px;
+  }
+
+  .preContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 10%;
+  }
+
+  .simpleSelectionContainer {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .buttonsContainer {
+    width: 35vw;
+    padding: 0 5% 0 0;
+  }
+
+
+  .longSelectionContainer {
+    width: 100%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .option {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .optionValue {
+    width: 80%;
+    text-align: center;
+  }
+
+  #mobile {
+    display: none;
+  }
+
+  #tabletDesk {
+    display: unset;
+  }
+
+  .lastText{
+    padding-left: 3rem;
+  }
+
+  .lastText h1 {
+    font-size: 42px;
+  }
+
+  .lastText h2 {
+    font-size: 42px;
+  }
+
+  .lastText p {
+    font-size: 24px;
   }
 }
