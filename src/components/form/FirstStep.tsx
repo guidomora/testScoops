@@ -37,6 +37,7 @@ const FirstStep = () => {
                         type="text"
                         placeholder='Nombre' />
                     <NavigationButton
+                        pageNumber={2}
                         text='Comenzar'
                         pageUrl={route} />
                 </div>

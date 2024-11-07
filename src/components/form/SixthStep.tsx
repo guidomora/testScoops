@@ -11,6 +11,8 @@ const SixthStep = () => {
         "Opcion 2:", secondChoice,
         "Opcion 3:", thirdChoice,
         "Opcion 4:", fourthChoice);
+
+    
     
     return (
         <div className="deskContainer" id="last">
