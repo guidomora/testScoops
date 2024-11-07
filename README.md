@@ -21,7 +21,7 @@ Para ejecutar el proyecto en tu entorno local:
 
 
 # Version desplegada en Vercel: 
-https://test-scoops-51nj62o4i-guidomoras-projects.vercel.app
+https://test-scoops.vercel.app/
 
 # Descripción del Proyecto
 Esta aplicación fue creada con un enfoque en la versión móvil del diseño. Los estilos fueron implementados utilizando una combinación de CSS y Styled Components, permitiendo una personalización eficiente y mantenible. La estructura de la aplicación se basa en la composición de pequeños componentes, lo que facilita la reutilización y escalabilidad del código.
