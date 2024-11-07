@@ -42,7 +42,6 @@ p {
 
 .preContainer {
   display: flex;
-  justifycontent: center;
   width: 100%;
   padding: 0%, 5%;
 }
